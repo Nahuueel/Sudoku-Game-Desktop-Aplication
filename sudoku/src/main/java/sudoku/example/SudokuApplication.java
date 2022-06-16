@@ -15,6 +15,7 @@ public class SudokuApplication extends Application {
     public void start(Stage primaryStage) throws IOException {
         uiImpl = new UserInterfaceImpl(primaryStage);
 
+
         try {
             SudokuBuildLogic.build(uiImpl);
         } catch (IOException e) {
