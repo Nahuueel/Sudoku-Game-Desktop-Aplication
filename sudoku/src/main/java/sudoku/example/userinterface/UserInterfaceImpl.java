@@ -20,7 +20,6 @@ import javafx.stage.Stage;
 import sudoku.example.constants.GameState;
 import sudoku.example.problemdomain.Coordinates;
 import sudoku.example.problemdomain.SudokuGame;
-import sudoku.example.userinterface.IUserInterfaceContract.EventListener;
 
 public class UserInterfaceImpl implements IUserInterfaceContract.View,
 EventHandler<KeyEvent>{
